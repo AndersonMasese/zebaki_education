@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_courses"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zpanel.anderson.zebaki.Money">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/card1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            android:layout_centerHorizontal="true" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+                <TextView
+                    android:text="Making money as a zebaki app user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/textView2" />
+                <TextView
+                    android:text="Anyone who has downloaded the zebaki application can trade. This involves registering as general user on homescreen. You will then actively browse through the list of registered schools on the view schools icon, pick their IDs and find potential students who want to join the schools in question. You will then refer these students via the zebaki referal engine on the middle tab. After the student you referred has reported to the indicated school ID, demand your payments from zebaki by sending email via the drawer  on the left screen swipe."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView2"
+                    android:id="@+id/textView3" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card1"
+
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+
+            android:layout_centerHorizontal="true" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+                <TextView
+                    android:text="School Owners"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/ambassador" />
+                <TextView
+                    android:text="Do you want to get more students? Zebaki system will ensure you increase the number of students  and increase your profits.To achieve this, you will need to register and upload your school details such as description and addresses. This will make you visible throughout all zebaki apps worldwide, therefore giving you a free advertisement platform. To make more people refer students to you, indicate a reward amount for anyone who succeffuly refers  a student to you. You may choose a reward amount of at least $0 and no upper bound. For every student referred to you over zebaki and on whom you indicated a reward amount, make twice the payments you indicated on your profile to zebaki which will then pay the agent the actual amount."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ambassador"
+                    android:id="@+id/ambassador1" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/card2"
+            android:layout_below="@+id/card1"
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+
+
+            android:layout_centerHorizontal="true" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+                <TextView
+                    android:text="OTHERS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/me" />
+                <TextView
+                    android:text="For other information, please visit the zebaki website at www.zebaki.co.ke for other information"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/me"
+                    android:id="@+id/me1" />
+
+
+            </RelativeLayout>
+
+
+                android:layout_centerHorizontal="true" >
+
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

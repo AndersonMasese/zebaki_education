@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zpanel.anderson.zebaki">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.zpanel.anderson.zebaki.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zpanel.anderson.zebaki.Professionals" />
+        <activity android:name="com.zpanel.anderson.zebaki.Campuses" />
+        <activity android:name="com.zpanel.anderson.zebaki.Money" />
+        <activity android:name="com.zpanel.anderson.zebaki.Help" />
+        <activity android:name="com.zpanel.anderson.zebaki.ParseJSON" />
+        <activity android:name="com.zpanel.anderson.zebaki.ParseJSON1" />
+        <activity android:name="com.zpanel.anderson.zebaki.Profile" />
+        <activity android:name="com.zpanel.anderson.zebaki.Profile1" />
+        <activity android:name="com.zpanel.anderson.zebaki.RegisterActivity" />
+        <activity android:name="com.zpanel.anderson.zebaki.RegisterActivity1" />
+        <activity android:name="com.zpanel.anderson.zebaki.About_agent" />
+        <activity android:name="com.zpanel.anderson.zebaki.About_business"></activity>
+
+    </application>
+
+</manifest>
